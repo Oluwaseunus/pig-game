@@ -9,6 +9,18 @@ GAME RULES:
 
 */
 
+let modal = document.getElementById("myModal");
+let close = document.getElementById("close");
+let btn = document.getElementById("btn");
+
+setTimeout(() => {
+    modal.style.display = "block";
+}, 1000);
+
+close.onclick = function () {
+    modal.style.display = "none";
+}
+
 let scores, roundScore, activePlayer, dice, isPlaying;
 
 newGame();

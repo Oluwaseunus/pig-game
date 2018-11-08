@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+a {
+    text-decoration: none;
+}
+
+.modal {
+    font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
+    padding: 10px;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-body {
+    background-color: #fefefe;
+    margin: 11% auto; /* 15% from the top and centered */
+    padding: 25px;
+    box-shadow: darkred;
+    box-sizing: border-box;
+    border: 1px solid #888;
+    width: 30%;
+    /* border-radius: 10px; */
+}
+
+button:hover {
+    font-weight: 500;
+}
+
+.load-button {
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+    font-size: 0.9rem;
+    padding: 6px 12px;
+    -moz-box-shadow:     inset 0 1px 0 0 #EB4D4D;
+    -webkit-box-shadow: inset 0 1px 0 0 #EB4D4D;
+    box-shadow:         inset 0 1px 0 0 #EB4D4D;
+    background: rgb(209, 62, 62);
+    border: solid 1px rgb(178, 66, 66);
+    color: white;
+    text-shadow: 0 1px 0 #a53333;
+}
+
+.load-button:hover {
+    background: rgb(230, 80, 80);
+}
+
+.load-button:active {
+    background: rgb(235, 78, 78);
+    border-color: rgb(235, 78, 78);
+}
+
+.pop {
+    padding-top: 12px;
+    display: flex;
+    position: static;
+    left: 50%;
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+}
+
+p {
+    padding: 5px;
+}
+
+ol {
+    /* word-break: break-all; */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 0.9rem;
+    margin-left: 2em;
+}
+
+body div div p {
+    padding-bottom: 10px;
+}
